@@ -17,6 +17,6 @@ public class TrackerCoreConfig {
 
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
-        return new ArrayList<>();
+        return new ArrayList<>()
     }
 }
